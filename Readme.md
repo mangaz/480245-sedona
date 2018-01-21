@@ -1,8 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Тимофей Солдатов](https://up.htmlacademy.ru/adaptive/13/user/480245).
-* Наставник: [Алексей Белов]
-(https://htmlacademy.ru/profile/id96038).
+* Наставник: [Алексей Белов](https://up.htmlacademy.ru/adaptive/13/user/id96038).
 
 ---
 
