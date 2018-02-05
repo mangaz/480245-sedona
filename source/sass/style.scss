@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,500,700&subset=cyrillic');
+@import "fonts.scss";
 @import "blocks/main-nav.scss";
-@import "blocks/main/info.scss";
+@import "blocks/info.scss";
 @import "blocks/picture-block.scss";
 @import "blocks/space-block.scss";
-@import "fonts.scss";
+@import "blocks/search-hotel.scss";
 body {
 	font-family: "PT Sans";
-    min-width: 320px;
+	min-width: 320px;
+	margin: 0;
+	padding: 0;
  }
 .visually-hidden {
 	position: absolute;
@@ -15,6 +18,10 @@ body {
 	height: 0;
 	overflow: hidden;
 	clip: rect(0, 0, 0, 0);
+}
+.page-header {
+	z-index: 1;
+	position: relative;
 }
 
 .space-block__title {
@@ -42,26 +49,6 @@ body {
 	font-size: 14px;
 	line-height: 21px;
 	color: #333333;
-	text-transform: uppercase;
-}
-.search-hotel__title {
-	font-size: 21px;
-	line-height: 26px;
-	font-weight: 700;
-	color: #000000;
-	text-transform: uppercase;
-}
-.search-hotel__desc {
-	font-size: 14px;
-	line-height: 24px;
-	color: #333333;
-	text-transform: uppercase;
-}
-.search-hotel__btn {
-	font-size: 21px;
-	line-height: 26px;
-	font-weight: 700;
-	color: #ffffff;
 	text-transform: uppercase;
 }
 .visitsedona {

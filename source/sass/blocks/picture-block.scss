@@ -1,8 +1,8 @@
 .picture-block {
     width: 320px;
-    height: 192px;
     background-color: #81b3d2;
     padding: 45px 0;
+    text-align: center;
 }
 .picture-block__title {
 	font-size: 18px;
@@ -25,7 +25,5 @@
     height: 390px;
 }
 .picture-block__picture {
-   position: absolute;
-   height: 390px;
-   width: 320px;
+    width: 100%;
 }

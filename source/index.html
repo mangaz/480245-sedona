@@ -2,7 +2,9 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HTML Academy: Седона</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -25,11 +27,10 @@
           </ul>
           <div class="main-nav__block">
             <a class="main-nav__logo">
-              <object id="graph" name="graph" type="image/svg+xml" data="img/logo-sedona-mobile.svg" width="" height=""></object>
-              <img class="main-nav__logo-image" src="img/" width="" height="" alt="">
+              <img class="main-nav__logo-image" src="img/logo-sedona-mobile.svg" width="" height="" alt="">
             </a>
             <button type="button" class="main-nav__toggle-btn">
-              <object id="graph2" name="graph2" type="image/svg+xml" data="img/icon-menu.svg" width="" height=""></object>
+              <img class="main-nav__burger" src="img/icon-menu.svg" width="" height="" alt="">
             </button>
           </div>
         </div>
@@ -40,7 +41,7 @@
       <h1 class="visually-hidden">Welcome to Sedona</h1>
       <section class="info">
         <div class="info__image">
-          <img class="info__picture" src="img/bg-back-mobile@1x.jpg" width="320" height="390" alt="welcome-to-sedona">
+          <img class="info__text-welcome" src="img/text-sedona-index.svg" width="280" height="280" alt="welcome-to-sedona">
         </div>
         <div class="info-text-block">
           <h2 class="info__title">Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
@@ -49,15 +50,13 @@
       </section>
 
       <section class="features">
-        <div class="features__item">
-          <div class="picture-block">
-            <h2 class="picture-block__title">настоящий городок</h2>
-            <span class="picture-block__number">- №1 -</span>
-            <p class="picture-block__desc">седона не аттракцион для туристов, там течёт своя жизнь</p>
-            <div class="picture-block__image">
-              <img class="picture-block__picture" src="img/main-city-mobile@1x.jpg" width="" height="260" alt="city">
-            </div>
-          </div>
+        <div class="features__item picture-block">
+          <h2 class="picture-block__title">настоящий городок</h2>
+          <span class="picture-block__number">- №1 -</span>
+          <p class="picture-block__desc">седона не аттракцион для туристов, там течёт своя жизнь</p>
+        </div>
+        <div class="picture-block__image">
+          <img class="picture-block__picture" src="img/main-city-mobile@1x.jpg" width="" height="260" alt="city">
         </div>
         <div class="features__item">
           <div class="unpicture-block">
