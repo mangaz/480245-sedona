@@ -11,23 +11,26 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
               <li class="site-list__item">
-                  <a class="main-nav__link main-nav__link--active">Главная</a>
-                </li>
-                <li class="site-list__item">
-                  <a href="photo.html" class="main-nav__link">Фото и видео</a>
-                </li>
-                <li class="site-list__item">
-                  <a href="form.html" class="main-nav__link">Форма отзыва</a>
-                </li>
-                <li class="site-list__item">
-                    <a href="https://htmlacademy.ru" class="main-nav__link">HTML Academy</a>
-                </li>
+                <a class="main-nav__link main-nav__link--active">Главная</a>
+              </li>
+              <li class="site-list__item">
+                <a href="photo.html" class="main-nav__link">Фото и видео</a>
+              </li>
+              <li class="site-list__item">
+                <a href="form.html" class="main-nav__link">Форма отзыва</a>
+              </li>
+              <li class="site-list__item">
+                <a href="https://htmlacademy.ru" class="main-nav__link">HTML Academy</a>
+              </li>
           </ul>
           <div class="main-nav__block">
             <a class="main-nav__logo">
-              <img class="main-nav__logo-image" src="#" width="" height="" alt="Sedona-City">
+              <object id="graph" name="graph" type="image/svg+xml" data="img/logo-sedona-mobile.svg" width="" height=""></object>
+              <img class="main-nav__logo-image" src="img/" width="" height="" alt="">
             </a>
-            <button type="button" class="main-nav__toggle-btn"></button>
+            <button type="button" class="main-nav__toggle-btn">
+              <object id="graph2" name="graph2" type="image/svg+xml" data="img/icon-menu.svg" width="" height=""></object>
+            </button>
           </div>
         </div>
       </nav>
@@ -37,38 +40,40 @@
       <h1 class="visually-hidden">Welcome to Sedona</h1>
       <section class="info">
         <div class="info__image">
-        <img class="info__picture" src="#" width="" height="" alt="welcome-to-sedona">
+          <img class="info__picture" src="img/bg-back-mobile@1x.jpg" width="320" height="390" alt="welcome-to-sedona">
         </div>
         <div class="info-text-block">
-          <h2 class="intro__title">Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
-          <p class="intro__desc">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+          <h2 class="info__title">Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
+          <p class="info__desc">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
         </div>
       </section>
 
       <section class="features">
-        <div class="features__item picture-block">
-          <h2 class="picture-block__title">настоящий городок</h2>
-          <span class="picture-block__number">- №1 -</span>
-          <p class="picture-block__desc">седона не аттракцион для туристов, там течёт своя жизнь</p>
-        </div>
-        <div class="picture-block__picture">
-          <img src="#" width="" height="" alt="city">
+        <div class="features__item">
+          <div class="picture-block">
+            <h2 class="picture-block__title">настоящий городок</h2>
+            <span class="picture-block__number">- №1 -</span>
+            <p class="picture-block__desc">седона не аттракцион для туристов, там течёт своя жизнь</p>
+            <div class="picture-block__image">
+              <img class="picture-block__picture" src="img/main-city-mobile@1x.jpg" width="" height="260" alt="city">
+            </div>
+          </div>
         </div>
         <div class="features__item">
           <div class="unpicture-block">
             <img src="#" width="" height="" alt="house">
             <h2 class="unpicture-block__title">Жильё</h2>
-            <p>рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            <p class="unpicture-block__desc">рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </div>
           <div class="unpicture-block">
             <img src="#" width="" height="" alt="gift">
             <h2 class="unpicture-block__title">Сувениры</h2>
-            <p>Не только китайского, но и местного производства!</p>
+            <p class="unpicture-block__desc">Не только китайского, но и местного производства!</p>
           </div>
           <div class="unpicture-block">
             <img src="#" width="" height="" alt="burger">
             <h2 class="unpicture-block__title">Еда</h2>
-            <p>Всегда заказывайте фирменный бургер, вы не разочаруйтесь!</p>
+            <p class="unpicture-block__desc">Всегда заказывайте фирменный бургер, вы не разочаруйтесь!</p>
           </div>
         </div>
         <div class="features__item picture-block">
@@ -77,7 +82,7 @@
           <p class="picture-block__desc">да, по нему можно пройти! если вы осмелитесь, конечно</p>
         </div>
         <div class="picture-block__picture">
-          <img src="#" width="" height="" alt="mountains">
+          <img src="img/main-bridge-mobile@1x.jpg" width="" height="" alt="mountains">
         </div>
         <div class="features__item"></div>
           <div class="space-block">
@@ -85,12 +90,12 @@
             <span class="space-block__number">- №3 -</span>
             <p class="space-block__desc">все интересные места находятся очень близко</p>
           </div>
-          <div class="space-block__item">
+          <div class="space-block">
             <h2 class="space-block__title">красивая дорога</h2>
             <span class="space-block__number">- №4 -</span>
             <p class="space-block__desc">ехать в седону из лас-вегаса совсем не скучно!</p>
           </div>
-          <div class="space-block__item">
+          <div class="space-block">
             <h2 class="space-block__title">мало туристов</h2>
             <span class="space-block__number">- №5 -</span>
             <p class="space-block__desc">большинство едет в гранд каньон и толпится там</p>
@@ -107,10 +112,12 @@
 
     <footer class="page-footer">
       <div class="map">
-        <a class="map__google-link" target="_blank" href="#"></a>
+        <a class="map__google-link" target="_blank" href="#">
+          <img src="img/bg-map-mobile@1x.jpg" width="" height="" alt="map">
+        </a>
       </div>
       <div class="page-footer__last-block">
-        <a class="page-footer__tag" href="#"> <p>#visitsedona</p> </a>
+        <a class="page-footer__tag" href="#"> <p class="visitsedona">#visitsedona</p> </a>
       </div>
 
       <div class="socials">

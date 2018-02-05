@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,500,700&subset=cyrillic');
+@import "blocks/main-nav.scss";
+@import "blocks/main/info.scss";
+@import "blocks/picture-block.scss";
+@import "blocks/space-block.scss";
+@import "fonts.scss";
+body {
+	font-family: "PT Sans";
+    min-width: 320px;
+ }
+.visually-hidden {
+	position: absolute;
+	margin: -1px;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+}
+
+.space-block__title {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.unpicture-block__title {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+.unpicture-block__desc {
+	font-size: 14px;
+	line-height: 26px;
+	color: #333333;
+	text-transform: uppercase;
+}
+.space-block__desc, .space-block__number {
+	font-size: 14px;
+	line-height: 21px;
+	color: #333333;
+	text-transform: uppercase;
+}
+.search-hotel__title {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+.search-hotel__desc {
+	font-size: 14px;
+	line-height: 24px;
+	color: #333333;
+	text-transform: uppercase;
+}
+.search-hotel__btn {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.visitsedona {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+.page-footer__desc {
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+	text-transform: uppercase;
+}
+

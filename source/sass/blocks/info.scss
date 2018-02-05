@@ -1,0 +1,38 @@
+.visually-hidden {
+	position: absolute;
+	margin: -1px;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+}
+.info-text-block {
+    height: 267px;
+    width: 320px;
+    background-color: #ffffff;
+    padding: 73px 0 0;
+}
+.info__title, {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+.info__desc {
+	font-size: 14px;
+	line-height: 26px;
+	color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+}
+.info__image {
+    position: relative;
+    width:320px ;
+    height: 390px;
+}
+.info__picture {
+   position: absolute;
+   height: 390px;
+}
